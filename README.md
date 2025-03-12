@@ -22,7 +22,8 @@ The non-software content of this template repository is licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
 The software content of this template repository licensed under the [MIT License](https://spdx.org/licenses/MIT.html). See the [license file](LICENSE.md) for more information.
 
-###Terminal history for pdf rendering error
+### Terminal history for pdf rendering error
+```bash
 (base) Lukes-MacBook-Air:DSCI310-IA4 lukeni$ make
 Rscript source/generate_figures.R --input_dir="data/00030067-eng.csv" \
                 --out_dir="results"
@@ -157,3 +158,4 @@ See https://tug.org/texlive/upgrade.html for details.
     at async Object.complete (file:///Applications/quarto/bin/quarto.js:78307:13)
     at async Object.onPostProcess (file:///Applications/quarto/bin/quarto.js:85808:36)
 make: *** [reports/qmd_example.pdf] Error 1
+```

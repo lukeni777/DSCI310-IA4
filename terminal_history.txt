@@ -1,0 +1,500 @@
+    2  conda --version
+    3  python --version
+    4  R --versionR
+    5  R --version
+    6  install.packages("tidyverse")
+    7  R -e "IRkernel::installspec()"
+    8  quarto --version
+    9  quarto --version
+   10  sudo chown -R $(whoami):admin /usr/local/bin
+   11  latex --version
+   12  latex --version
+   13  tlmgr install eurosym   adjustbox   caption   collectbox   enumitem   environ   fp   jknapltx   ms   parskip   pdfcol   pgf   rsfs   soul   tcolorbox   titling   trimspaces   ucs   ulem   upquote   lwarp   oberdiek
+   14  pip install "nbconvert[webpdf]"
+   15  playwright install chromium
+   16  docker run hello-world
+   17  docker run hello-world
+   18  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   19  docker run hello-world
+   20  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   21  git --version
+   22  jupyter lab
+   23  playwright install chromium
+   24  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   25  playwright install chromium
+   26  conda install jupyterlab jupyterlab-git jupyterlab-spellchecker
+   27  playwright install chromium
+   28  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   29  pwd
+   30  cd check-setup-310.log 
+   31  open check-setup-310.log 
+   32  jupyter alb
+   33  jupyter lab
+   34  ls
+   35  cd Desktop/ubc/2024WT2/
+   36  ls
+   37  cd DSCI310/
+   38  ls
+   39  git clone https://github.com/lukeni777/2025-01-21-branch_conflict.git
+   40  cd 2025-01-21-branch_conflict/
+   41  ls
+   42  ls -a
+   43  git status
+   44  git switch -c b1
+   45  git status
+   46  git log --oneline
+   47  code script.sh
+   48  bash script.sh
+   49  ls
+   50  ls -a
+   51  ls
+   52  ls
+   53  bash script.sh 
+   54  git add .
+   55  git commit -m "create script.sh"
+   56  git status
+   57  git push origin b1
+   58  git log --oneline --graph --all
+   59  ls
+   60  code README.md 
+   61  git swith main
+   62  git switch main
+   63  git switch -c b2
+   64  code script.sh
+   65  code README.md 
+   66  git status
+   67  git add .
+   68  git status
+   69  git commit -m "a new file in b2"
+   70  git push origin b2
+   71  git switch b1
+   72  git status
+   73  git add .
+   74  git commit -m "edit b1 script"
+   75  git push origin b1
+   76  git log --oneline --graph --all
+   77  git switch main
+   78  git log --oneline --graph --all
+   79  git switch b2
+   80  git log --oneline --graph --all
+   81  git rebase main
+   82  git log --oneline --graph --all
+   83  git code script.sh 
+   84   code script.sh 
+   85  git status
+   86  git status
+   87  git switch main
+   88  git status
+   89  code script.sh
+   90  git pull origin main
+   91  code script.sh 
+   92  git log --oneline --graph --all
+   93  git rebase main
+   94  git switch b2
+   95  git rebase main
+   96  git status
+   97  git add .
+   98  git status
+   99  git rebase --continue
+  100  git status
+  101  git switch main
+  102  git switch b2
+  103  git rebase --continue
+  104  git rebase main
+  105  git switch main
+  106  git status
+  107  git push origin b2
+  108  git push --force origin b2
+  109  git status
+  110  git pull origin main
+  111  git status
+  112  git log --oneline --graph --all
+  113  which python
+  114  conda create --name my_env python=3.13
+  115  conda activate my_env
+  116   conda info
+  117  install pandas
+  118  conda install pandas
+  119  conda env export
+  120  cd Desktop/ubc/2024WT2/DSCI310/
+  121  git clone https://github.com/lukeni777/2025-01-23-virtual_environmnet.git
+  122  conda env export -f environment.yml
+  123  ls
+  124  code environment.yml 
+  125  ls
+  126  cd 2025-01-23-virtual_environmnet/
+  127  conda env export -f environment.yml
+  128  code .
+  129  conda env export --from-history -f env_history.yml
+  130  ls
+  131  code env_history.yml 
+  132  conda deactivate
+  133  conda activate my_env
+  134  git status
+  135  conda install pandas$ conda env create --file env_histoy.yml 
+  136  ls
+  137  conda deactivate
+  138  ls
+  139  conda env create --file env_history.yml 
+  140  pwd
+  141  ls
+  142  git status
+  143  git add .
+  144  git commit -m '.'
+  145  git push origin main
+  146  cd Desktop/ubc/2024WT2/DSCI310/
+  147  ls
+  148  git clone https://github.com/lukeni777/2025-01-27-learning-about-version-control.git
+  149  cd 2025-01-27-learning-about-version-control/
+  150  ls
+  151  code README.md 
+  152  git add .
+  153  git commit -m "header and author"
+  154  git push
+  155  git add .
+  156  git commit -m "hard solve"
+  157  git push
+  158  git pull
+  159  git config pull.rebase false
+  160  git pull
+  161  git push
+  162  git ad .
+  163  git status
+  164  git add .
+  165  git commit -m "conflict solved"
+  166  git status
+  167  git push
+  168  git log --oneline -graph
+  169  git log --oneline --graph
+  170  git branch b1
+  171  git switch b1
+  172  git status
+  173  git branch opinions
+  174  git switch opinions
+  175  git status
+  176  code README.md 
+  177  git add .
+  178  git commit -m "opinions on VC"
+  179  git push origin opinions
+  180  cd Desktop/ubc/2024WT2/DSCI310/01-30-2025-docker/
+  181  ls
+  182  docker run --rm -it rocker/r-ver:4.3.2
+  183  docker run --rm rocker/rstudio:4.4.2
+  184  docker run --rm -p 8787:8787 rocker/rstudio:4.4.2
+  185  docker run --rm -e PASSWORD="1027" -p 8787:8787 rocker/rstudio:4.4.2
+  186  docker run --rm -e PASSWORD="1027" -p 8787:8787 rocker/rstudio:4.4.2
+  187  docker run --rm -p 7000:8787 rocker/tidyverse:4.4.2
+  188  docker run --rm -p 7000:8787 rocker/tidyverse:4.4.2
+  189  docker run --rm -e PASSWORD="1027" -p 7000:8787 --platform=linux/amd64 rocker/tidyverse:4.4.2
+  190  docker run --rm -e PASSWORD="1027" -p 7000:8787 --platform=linux/amd64 rocker/tidyverse:4.4.2
+  191  docker run --rm -e PASSWORD="1027" -p 7000:8787 --platform=linux/amd64 rocker/tidyverse:4.4.2
+  192  docker run --rm -e PASSWORD="1027" -p 7777:8787 --platform=linux/amd64 rocker/tidyverse:4.4.2
+  193  docker run --rm -e PASSWORD="1027" -p 7777:8787 --platform=linux/amd64 rocker/tidyverse:4.4.2
+  194  docker run --rm -e PASSWORD="1027" -p 7777:8787 --platform=linux/amd64 -v /$(pwd):/Desktop/work rocker/tidyverse:4.4.2
+  195  docker run --rm -e PASSWORD="1027" -p 7777:8787 --platform=linux/amd64 -v /$(pwd):/Desktop/ubc/work rocker/tidyverse:4.4.2
+  196  pwd
+  197  ls
+  198  cd Desktop/
+  199  ls
+  200  ls
+  201  cd ubc/
+  202  ls
+  203  cd 2024WT2
+  204  cd DSCI310/
+  205  ls
+  206  pwd
+  207  docker run --rm -e PASSWORD="1027" -p 7777:8787 --platform=linux/amd64 -v /$(pwd):/Users/lukeni/Desktop/ubc/2024WT2/DSCI310/work rocker/tidyverse:4.4.2
+  208  docker run --rm -e PASSWORD="1027" -p 7777:8787 --platform=linux/amd64 -v /$.:/Users/lukeni/Desktop/ubc/2024WT2/DSCI310/work rocker/tidyverse:4.4.2
+  209  ssh lukeni@remote.sttudents.cs.ubc.ca
+  210  ssh lukeni@remote.students.cs.ubc.ca
+  211  pwd
+  212  cd Desktop/ubc/2024WT2/DSCI310/
+  213  ls
+  214  git clone https://github.com/lukeni777/02-06-2025-docker.git
+  215  cd 02-06-2025-docker/
+  216  ls
+  217  mkdir Dockerfile
+  218  code README.md 
+  219  Rscript -e "print("hi")
+  220  "
+  221  Rscript -e "print("hi")
+  222  "
+  223  docker run --rm -p 8787:8787 -e PASSWORD="apassword" rocker/rstudio:4.4.2
+  224  pwd
+  225  cd Desktop/ubc/2024WT2/DSCI310/
+  226  ls
+  227  https://github.com/DSCI-310-2025/dsci310-ia3-lukeni777-docker.git
+  228  git clone https://github.com/DSCI-310-2025/dsci310-ia3-lukeni777-docker.git
+  229  cd dsci310-ia3-lukeni777-docker/
+  230  ls
+  231  docker pull rocker/rstudio
+  232  ls
+  233  docker pull rocker/rstudio
+  234  code
+  235  docker run --rm -it -e PASSWORD="password" -p 8787:8787 -v /$(pwd):/home/rstudio/work  rocker/tidyverse:4.4.2
+  236  ls
+  237  cd Desktop/ubc/2024WT2/DSCI310/
+  238  LS
+  239  ls
+  240  cd dsci310-ia3-lukeni777-docker/
+  241  ls
+  242  code
+  243  docker build --tag mycontainer .
+  244  docker login -u lukeni777
+  245  ls
+  246  git add .
+  247  git commit -m "1"
+  248  git push
+  249  git status
+  250  ls
+  251  cd ..
+  252  ls
+  253  git clone https://github.com/lukeni777/02-11-scripts.git
+  254  cd 02-11
+  255  cd 02-11-scripts/
+  256  ls
+  257  code
+  258  ls
+  259  code README.md 
+  260  code README.md 
+  261  ls
+  262  bash bash.sh 
+  263  bash bash.sh
+  264  ls
+  265  ls -a
+  266  pwd
+  267  bash scripts/bash.sh 
+  268  ls
+  269  cat script.R 
+  270  Rscript script.R
+  271  Rscript scripts/script.R 
+  272  Rscript -e scripts/script.R 
+  273  Rscript -e '1+1'
+  274  ls
+  275  mkdir -p .github/workflows
+  276  ls
+  277  git status
+  278  git add .
+  279  git commit -m "1"
+  280  git push
+  281  git add .
+  282  git commit -m 'd"
+  283  q
+  284  git commit -m "d"
+  285  git push
+  286  cd ..
+  287  ls
+  288  cd dsci310-ia3-lukeni777-docker/
+  289  mkdir -p .github/workflows
+  290  ls
+  291  pwd
+  292  code
+  293  ls
+  294  git status
+  295  git add .
+  296  git commit -m "everything"
+  297  git push
+  298  ls
+  299  docker login -u lukeni777
+  300  docker build --tag lukeni777/mycontainer .
+  301  docker push lukeni777/mycontainer
+  302  docker-compose up
+  303  docker-compose rm
+  304  git status
+  305  git add .
+  306  git commit -m "edit"
+  307  git push
+  308  git add .
+  309  git commit -m "correct filename"
+  310  git push
+  311  git status
+  312  docker images
+  313  cd Desktop/ubc/2024WT2/DSCI310/
+  314  ls
+  315  git clone https://github.com/DSCI-310-2025/midterm-lukeni777.git
+  316  ls
+  317  cd midterm-lukeni777/
+  318  ls
+  319  ls
+  320  code README.md 
+  321  git status
+  322  git add .
+  323  git commit -m "Q7 Step 2 changes to README.md"
+  324  git status
+  325  git push
+  326  git status
+  327  git status
+  328  git add .
+  329  git commit -m "Q10 step 5 create function.R"
+  330  git push
+  331  docker build -t my-r-script .
+  332  docker run --rm my-r-script
+  333  docker build -t my-r-script .
+  334  docker run --rm my-r-script
+  335  docker run --rm my-r-script
+  336  docker build -t my-r-script .
+  337  docker run --rm my-r-script
+  338  git status
+  339  git add .
+  340  git commit -m "Q11 step6 created dockerfile"
+  341  git push
+  342  git add .
+  343  git commit -m "Q13 step8 created midterm.yml in workflow"
+  344  git push
+  345  git status
+  346  git add .
+  347  git commit - "fix workflow name"
+  348  git push
+  349  git status
+  350  git add .
+  351  git commit -m "rename folder
+  352  "
+  353  git status
+  354  git push
+  355  ssh lukeni@remote.student.cs.ubc.ca
+  356  start bookbiz.sql
+  357  sqlplus ora_CWLid@stu
+  358  ssh lukeni@remote.student.cs.ubc.ca
+  359  ssh lukeni@remote.students.cs.ubc.ca
+  360  pwd
+  361  ssh lukeni@remote.students.cs.ubc.ca
+  362  cd Desktop/ubc/2024WT2/DSCI310/
+  363  ls
+  364  cd project/
+  365  git clone https://github.com/DSCI-310-2025/dsci-310-group-13.git
+  366  ls
+  367  cd dsci-310-group-13/
+  368  ls
+  369  code README.md 
+  370  ls
+  371  cd ..
+  372  ls
+  373  git clone https://github.com/sidahuja1/dsci100_group7.git
+  374  ls
+  375  cd dsci-310-group-13/
+  376  ls
+  377  git status
+  378  git add .
+  379  git push
+  380  git status
+  381  git push origin main
+  382  git commit -m "edited Readme/added dataset"
+  383  git push
+  384  cd Desktop/ubc/2024WT2/DSCI310/
+  385  ls
+  386  cd project/
+  387  ls
+  388  cd dsci-310-group-13/
+  389  ls
+  390  code analysis.ipynb 
+  391  git status
+  392  git add .
+  393  git commit -m "semi-complete analysis"
+  394  git push
+  395  git pull
+  396  git config pull.rebase false
+  397  git pull
+  398  install.packages("tidymodels")
+  399  cd Desktop/ubc/2024WT2/DSCI310/project/
+  400  ls
+  401  dsci-310-group-13/
+  402  ls
+  403  cd dsci-310-group-13/
+  404  git status
+  405  git branch m1
+  406  git switch m1
+  407  git pull
+  408  git status
+  409  git add .
+  410  git switch m1
+  411  git commit -m "add TODO to analysis.ipynb"
+  412  git push origin main
+  413  code kowledge_analysis.qmd 
+  414  git add .
+  415  git status
+  416  git commit -m 
+  417  git commit -m "format ipynb to qmd/ need to delete 'delete_after'"
+  418  git push
+  419  git pull 
+  420  git status
+  421  git push
+  422  git pull
+  423  git add .
+  424  git commit -m "delete analysis.qmd"
+  425  git push
+  426  ls
+  427  cd Desktop/ubc/2024WT2/DSCI320/
+  428  ls
+  429  git clone https://github.com/ubc-dsci320-2024w2/project-yyds.git
+  430  git status
+  431  ls 
+  432  cd project-yyds/
+  433  ls
+  434  git status
+  435  git status
+  436  git switch Luke
+  437  git status
+  438  git add . 
+  439  git status
+  440  git commit git pull origin main
+  441  git status
+  442  git pull origin main
+  443  git status
+  444  pwd
+  445  ls
+  446  cd ..
+  447  ls
+  448  pwd
+  449  cd ../..
+  450  ls
+  451  pwd
+  452  ls
+  453  cd Downloads/
+  454  ls
+  455  cd git-lfs-
+  456  cd git-lfs-3.6.1/
+  457  ls
+  458  ./install.sh
+  459  ls
+  460  /install.sh
+  461  ./install.sh 
+  462  sudo ./install.sh
+  463  ls
+  464  cd ..
+  465  ls
+  466  cd git-lfs-3.6.12/
+  467  ls
+  468  ./install.sh 
+  469  cd ../..
+  470  pwd
+  471  ls
+  472  cd Desktop/
+  473  ls
+  474  cd git-lfs-3.6.1/
+  475  ls
+  476  ./install.sh
+  477  sudo ./install.sh
+  478  cd ..
+  479  cd git-lfs-3.6.12/
+  480  sudo ./install.sh
+  481  git lfs install
+  482  quarto render qmd_example.qmd
+  483  make
+  484  pwd
+  485  make
+  486  Rscript -e 'install.packages("docopt")'
+  487  Rscript -e 'install.packages("docopt")
+  488  Rscript -e 'install.packages("docopt")
+  489  Rscript -e 'install.packages("docopt")
+  490  Rscript -e 'install.packages("docopt"
+  491  Rscript -e 'install.packages("docopt")'
+  492  make
+  493  make
+  494  make
+  495  make
+  496  nake
+  497  make
+  498  make
+  499  pwd
+  500  command > output.txt
+  501  history > terminal_history.txt
